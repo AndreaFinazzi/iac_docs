@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T20:58:58.522Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="xZe5VBRERj3B393LrsnR" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T21:16:05.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="mE2au-OQrd9aA_-9i437" version="14.7.7" type="github">
   <diagram id="GWaFEUvVle04y2DJGK1i" name="Page-1">
-    <mxGraphModel dx="2096" dy="1368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3077" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,6 +11,9 @@
               <mxPoint x="-35" y="575" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-14" target="kVEoM7wyfx6DlVpUFISO-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-14" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="550" width="110" height="50" as="geometry" />
@@ -27,6 +30,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-17" target="kVEoM7wyfx6DlVpUFISO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-17" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="780" width="110" height="50" as="geometry" />
         </mxCell>
@@ -38,8 +44,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-18" target="kVEoM7wyfx6DlVpUFISO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-18" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="70" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-24" target="kVEoM7wyfx6DlVpUFISO-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IControllerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNodeSynchronized&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- reference_traj: Traj&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev: ControlCmd&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- planner_sub: ROS2Sub&amp;lt;Traj&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev_sub: ROS2Sub&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- control_cmd_pub: ROS2Pub&amp;lt;ControlCmd&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ plannerCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ controlCmdPrevCallback(ControlCmd): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ virtual storeTraj(Traj p): void&lt;br&gt;+ virtual solve() = 0: ControlCmd&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="40" width="310" height="230" as="geometry" />
@@ -56,17 +68,40 @@
         <mxCell id="kVEoM7wyfx6DlVpUFISO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=oval;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-29" value="&lt;b&gt;ControlSafetyLayerNode&lt;br&gt;&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="660" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-32" value="The actual previous control command is determined by the CSL, not by the controller itself. That&#39;s why we need a callback for the control command." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-475" y="10" width="800" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- node_name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- params: Collection&amp;lt;Param&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state: VehicleState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- system_state: SystemState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_sub: ROS2Sub&amp;lt;VehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- system_state_sub: ROS2Sub&amp;lt;SystemState&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ BaseNode(String node_name): BaseNode*&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ paramCallback(Collection&amp;lt;Param&amp;gt; ps)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ vehicleStateCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ systemStateCallback(SystemState s): void&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="290" height="230" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- node_name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- params: Collection&amp;lt;Param&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state: VehicleState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;&lt;font color=&quot;#a680b8&quot;&gt;- system_state: SystemState \\ from SSManager&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_sub: ROS2Sub&amp;lt;VehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- system_state_sub: ROS2Sub&amp;lt;SystemState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- racing_state_sub: ROS2Sub&amp;lt;RacingState&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ BaseNode(String node_name): BaseNode*&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ paramCallback(Collection&amp;lt;Param&amp;gt; ps)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ vehicleStateCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;font color=&quot;#a680b8&quot;&gt;&lt;i&gt;+ systemStateCallback(SystemState s): void&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="290" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-36" target="kVEoM7wyfx6DlVpUFISO-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-26" target="kVEoM7wyfx6DlVpUFISO-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="166" />
+              <mxPoint x="530" y="410" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kVEoM7wyfx6DlVpUFISO-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBaseNodeSynchronized:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- glock_cur: Time&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- gclock_sub: ROS2Sub&amp;lt;Time&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gclockCallback(Time t): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ virtual run() = 0: void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="290" height="150" as="geometry" />
+          <mxGeometry x="200" y="330" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-40" value="Vehicle Interface" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="415" y="765" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-45" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-46" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="730" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
