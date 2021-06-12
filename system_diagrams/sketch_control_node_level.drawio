@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T22:46:03.792Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="qvFLEX40NEQYv14ghygE" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-12T23:19:50.468Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="RM06XnEMlqVVrMvlavKp" version="14.7.7" type="github">
   <diagram id="GWaFEUvVle04y2DJGK1i" name="Page-1">
-    <mxGraphModel dx="4351" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4552" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,10 +120,10 @@
         <mxCell id="X6_zLfN0Bw44AlQSeXI6-3" value="PlannerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-470" y="660" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="X6_zLfN0Bw44AlQSeXI6-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PlannerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- opponents_state_sub: ROS2Sub&amp;lt;Collection&amp;lt;OppoVehicleState&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state_sub: ROS2Sub&amp;lt;TrackState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line_sub: ROS2Sub&amp;lt;GRacingLine&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- trajectory_pub: ROS2Pub&amp;lt;Trajectory&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- planner_algorithm: IPlannerAlgorithm&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ PlannerNode(IPlannerStrategy p): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;opponentsState&lt;span&gt;Callback(Collection&amp;lt;OppoVehicleState&amp;gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ trackStateCallback(TrackState): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gRacingLineCallback(GRacingLine): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PlannerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- opponents_state_sub: ROS2Sub&amp;lt;Collection&amp;lt;OppoVehicleState&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state_sub: ROS2Sub&amp;lt;TrackState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- trajectory_pub: ROS2Pub&amp;lt;Trajectory&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- planner_algorithm: IPlannerAlgorithm&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ PlannerNode(GRacingLineManager, IPlannerStrategy p): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;opponentsState&lt;span&gt;Callback(Collection&amp;lt;OppoVehicleState&amp;gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ trackStateCallback(TrackState): void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-610" y="50" width="390" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="X6_zLfN0Bw44AlQSeXI6-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;IPlannerAlgorithm&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_prev: EgoVehicleState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- opponents_state: Collection&amp;lt;OppoVehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state: TrackState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line: GRacingLine&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_model: VehicleModel&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- behavior_state: BehaviorState&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ virtual solve() = 0: Trajectory&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;b&gt;IPlannerAlgorithm&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_prev: EgoVehicleState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- opponents_state: Collection&amp;lt;OppoVehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state: TrackState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line_manager: GRacingLineManager&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_model: VehicleModel&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- behavior_state: BehaviorState&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ virtual solve() = 0: Trajectory&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-570" y="950" width="310" height="190" as="geometry" />
         </mxCell>
         <mxCell id="X6_zLfN0Bw44AlQSeXI6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-12" target="X6_zLfN0Bw44AlQSeXI6-3">
@@ -200,6 +200,57 @@
         </mxCell>
         <mxCell id="X6_zLfN0Bw44AlQSeXI6-43" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&lt;i&gt;BehaviorState&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1491" y="190" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-44" value="Lidar Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-45" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-46" value="Radar&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-47" value="GPS&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-53" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2270" y="680" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-48" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2300" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-54" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2260" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-49" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2290" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-55" value="Camera&lt;br&gt;Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2250" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-56" value="extrinsic calibration files" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-57" value="intrinsic calibration files" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=oval;endFill=0;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-58" target="X6_zLfN0Bw44AlQSeXI6-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-58" value="PerceptionNode" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-59" value="V2X" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-2310" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-60" value="Lidar Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2300" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-61" value="Lidar Driver" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2290" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-62" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;PerceptionNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- opponents_state_pub: ROS2Sub&amp;lt;Collection&amp;lt;OppoVehicleState&amp;gt;&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- track_state_sub: ROS2Sub&amp;lt;TrackState&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- trajectory_pub: ROS2Pub&amp;lt;Trajectory&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- opponent: IPlannerAlgorithm&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ PlannerNode(IPlannerStrategy p): void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;opponentsState&lt;span&gt;Callback(Collection&amp;lt;OppoVehicleState&amp;gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ trackStateCallback(TrackState): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gRacingLineCallback(GRacingLine): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2175" y="200" width="390" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
