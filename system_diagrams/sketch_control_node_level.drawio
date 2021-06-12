@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-12T00:55:53.946Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="hE36SyLr3tR7afdiL1Hl" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-12T21:37:55.901Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="SzuVuR6zP-GYEki8e24u" version="14.7.7" type="github">
   <diagram id="GWaFEUvVle04y2DJGK1i" name="Page-1">
-    <mxGraphModel dx="3077" dy="1940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="1538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-14" target="kVEoM7wyfx6DlVpUFISO-24">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-14" target="kVEoM7wyfx6DlVpUFISO-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-75" y="159.99999999999977" as="targetPoint" />
             <Array as="points">
@@ -12,16 +12,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-14" target="kVEoM7wyfx6DlVpUFISO-29">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-14" target="kVEoM7wyfx6DlVpUFISO-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-14" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-14" value="ControllerNode" style="html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="550" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/2ajCN.gif;imageBorder=#000000;" vertex="1" parent="1">
-          <mxGeometry y="-300" width="401" height="275" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.stack.imgur.com/2ajCN.gif;imageBorder=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-999" y="-827" width="401" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-17" target="kVEoM7wyfx6DlVpUFISO-24">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kVEoM7wyfx6DlVpUFISO-17" target="kVEoM7wyfx6DlVpUFISO-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-75" y="159.99999999999977" as="targetPoint" />
             <Array as="points">
@@ -30,13 +30,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-17" target="kVEoM7wyfx6DlVpUFISO-29">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=async;endFill=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-17" target="kVEoM7wyfx6DlVpUFISO-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-17" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-17" value="ControllerNode" style="html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="780" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-18" target="kVEoM7wyfx6DlVpUFISO-24">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-18" target="kVEoM7wyfx6DlVpUFISO-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="180" as="targetPoint" />
             <Array as="points">
@@ -44,64 +44,108 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=async;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-18" target="kVEoM7wyfx6DlVpUFISO-29">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=async;endFill=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-18" target="kVEoM7wyfx6DlVpUFISO-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-18" value="ControllerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-18" value="ControllerNode" style="html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="70" y="660" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-24" target="kVEoM7wyfx6DlVpUFISO-36">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" parent="1" source="kVEoM7wyfx6DlVpUFISO-24" target="kVEoM7wyfx6DlVpUFISO-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IControllerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNodeSynchronized&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- reference_traj: Traj&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev: ControlCmd&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- planner_sub: ROS2Sub&amp;lt;Traj&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev_sub: ROS2Sub&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- control_cmd_pub: ROS2Pub&amp;lt;ControlCmd&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ plannerCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ controlCmdPrevCallback(ControlCmd): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ virtual storeTraj(Traj p): void&lt;br&gt;+ virtual solve() = 0: ControlCmd&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="40" width="310" height="230" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-24" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IControllerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNodeSynchronized&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- reference_traj: Traj&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev: ControlCmd&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- planner_sub: ROS2Sub&amp;lt;Traj&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_cmd_prev_sub: ROS2Sub&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- control_cmd_pub: ROS2Pub&amp;lt;ControlCmd&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ plannerCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ controlCmdPrevCallback(ControlCmd): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ virtual storeTraj(Traj p): void&lt;br&gt;+ virtual solve() = 0: ControlCmd&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="50" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-25" value="gclockCallback() has default implementation, the virtual method is solve()." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-25" value="gclockCallback() has default implementation, the virtual method is solve()." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-10" width="410" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ControlSafetyLayerNode:&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNodeSynchronized&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_buffer: OrderedBuffer&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- param_sub: ROS2Sub&amp;lt;Collection&amp;lt;Param&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- control_sub: ROS2Sub&amp;lt;ControlCmd&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_pub: ROS2Pub&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ controlCallback(ControlCmd control_cmd)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="300" height="252.5" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;ControlSafetyLayerNode:&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNodeSynchronized&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_buffer: OrderedBuffer&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- param_sub: ROS2Sub&amp;lt;Collection&amp;lt;Param&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- control_sub: ROS2Sub&amp;lt;ControlCmd&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- control_pub: ROS2Pub&amp;lt;ControlCmd&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ controlCallback(ControlCmd control_cmd)&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="38.75" width="300" height="252.5" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-28" value="&lt;b&gt;Visibility Legend:&amp;nbsp;&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;for private member&lt;br&gt;+&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;for public member&lt;br&gt;~+ &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;for pure virtual member&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fontColor=#333333;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-85" width="170" height="60" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-28" value="&lt;b&gt;Visibility Legend:&amp;nbsp;&lt;/b&gt;&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;for private member&lt;br&gt;+&amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;for public member&lt;br&gt;~+ &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;for pure virtual member&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fontColor=#333333;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-1169" y="-612" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=oval;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-26">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=oval;endFill=0;" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-40">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;" parent="1" source="kVEoM7wyfx6DlVpUFISO-29" target="kVEoM7wyfx6DlVpUFISO-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-29" value="&lt;b&gt;ControlSafetyLayerNode&lt;br&gt;&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-29" value="&lt;b&gt;ControlSafetyLayerNode&lt;br&gt;&lt;/b&gt;" style="html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="660" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-32" value="The actual previous control command is determined by the CSL, not by the controller itself. That&#39;s why we need a callback for the control command." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-32" value="The actual previous control command is determined by the CSL, not by the controller itself. That&#39;s why we need a callback for the control command." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="-475" y="10" width="800" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- node_name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- params: Collection&amp;lt;Param&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state: VehicleState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;&lt;font color=&quot;#a680b8&quot;&gt;- system_state: SystemState \\ from SSManager&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_sub: ROS2Sub&amp;lt;VehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- system_state_sub: ROS2Sub&amp;lt;SystemState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- racing_state_sub: ROS2Sub&amp;lt;RacingState&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ BaseNode(String node_name): BaseNode*&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ paramCallback(Collection&amp;lt;Param&amp;gt; ps)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ vehicleStateCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;font color=&quot;#a680b8&quot;&gt;&lt;i&gt;+ systemStateCallback(SystemState s): void&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="290" height="270" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- node_name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- params: Collection&amp;lt;Param&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state: VehicleState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;i&gt;&lt;font color=&quot;#a680b8&quot;&gt;- system_state: SystemState \\ from SSManager&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_sub: ROS2Sub&amp;lt;VehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- system_state_sub: ROS2Sub&amp;lt;SystemState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- racing_state_sub: ROS2Sub&amp;lt;RacingState&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ BaseNode(String node_name): BaseNode*&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ paramCallback(Collection&amp;lt;Param&amp;gt; ps)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;+ vehicleStateCallback(Traj p): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;font color=&quot;#a680b8&quot;&gt;&lt;i&gt;+ systemStateCallback(SystemState s): void&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="-530" width="290" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-36" target="kVEoM7wyfx6DlVpUFISO-33">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="kVEoM7wyfx6DlVpUFISO-36" target="kVEoM7wyfx6DlVpUFISO-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kVEoM7wyfx6DlVpUFISO-26" target="kVEoM7wyfx6DlVpUFISO-36">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kVEoM7wyfx6DlVpUFISO-26" target="kVEoM7wyfx6DlVpUFISO-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="166" />
-              <mxPoint x="530" y="410" />
+              <mxPoint x="345" y="165" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBaseNodeSynchronized:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- glock_cur: Time&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- gclock_sub: ROS2Sub&amp;lt;Time&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gclockCallback(Time t): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ virtual run() = 0: void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="200" y="330" width="290" height="160" as="geometry" />
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-36" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBaseNodeSynchronized:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- glock_cur: Time&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- gclock_sub: ROS2Sub&amp;lt;Time&amp;gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gclockCallback(Time t): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ virtual run() = 0: void&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="200" y="-240" width="290" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-40" value="Vehicle Interface" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-40" value="Vehicle Interface" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="415" y="765" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-45" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-45" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="660" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kVEoM7wyfx6DlVpUFISO-46" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="kVEoM7wyfx6DlVpUFISO-46" value="ControlCmd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="460" y="730" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-1" value="Desired Trajectory (global coordinate)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="620" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-2" value="Desired Trajectory (ego coordinate)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="730" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-3" target="X6_zLfN0Bw44AlQSeXI6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-5" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-3" target="X6_zLfN0Bw44AlQSeXI6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=oval;endFill=0;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-3" target="X6_zLfN0Bw44AlQSeXI6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-3" value="PlannerNode" style="html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-470" y="660" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlannerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- opponents_state_sub: ROS2Sub&amp;lt;Collection&amp;lt;OppoVehicleState&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state_sub: ROS2Sub&amp;lt;TrackState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line_sub: ROS2Sub&amp;lt;GRacingLine&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- trajectory_pub: ROS2Pub&amp;lt;Traj&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;opponentsState&lt;span&gt;Callback(Collection&amp;lt;OppoVehicleState&amp;gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ trackStateCallback(TrackState): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gRacingLineCallback(GRacingLine): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="50" width="390" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPlannerStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_state_prev: EgoVehicleState&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- opponents_state: Collection&amp;lt;OppoVehicleState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state: TrackState&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line: GRacingLine&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- vehicle_model: VehicleModel&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- behavior_state: BehaviorState&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ virtual solve() = 0: Traj&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="950" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-12" target="X6_zLfN0Bw44AlQSeXI6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=0;dashed=1;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-12" target="X6_zLfN0Bw44AlQSeXI6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-12" value="PlannerStrategy" style="html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-470" y="765" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-16" value="BehavioralPlannerNode" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-720" y="660" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=async;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X6_zLfN0Bw44AlQSeXI6-16" target="X6_zLfN0Bw44AlQSeXI6-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-670" y="600" as="sourcePoint" />
+            <mxPoint x="-510" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6_zLfN0Bw44AlQSeXI6-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;BehavioralPlannerNode:&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseNode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;span&gt;- opponents_state_sub: ROS2Sub&amp;lt;Collection&amp;lt;OppoVehicleState&amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- track_state_sub: ROS2Sub&amp;lt;TrackState&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;- g_racing_line_sub: ROS2Sub&amp;lt;GRacingLine&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- trajectory_pub: ROS2Pub&amp;lt;Traj&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;opponentsState&lt;span&gt;Callback(Collection&amp;lt;OppoVehicleState&amp;gt;): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ trackStateCallback(TrackState): void&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ gRacingLineCallback(GRacingLine): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="50" width="390" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
